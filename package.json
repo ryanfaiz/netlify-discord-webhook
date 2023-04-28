@@ -1,6 +1,6 @@
 {
-  "name": "netlify-plugin-discord",
-  "version": "0.0.2",
+  "name": "netlify-discord-webhook",
+  "version": "0.0.3",
   "description": "Netlify Build plugin - Discord webhook notifications",
   "main": "lib/index.js",
   "files": [
@@ -10,17 +10,19 @@
   "keywords": [
     "netlify-plugin",
     "netlify",
-    "discord"
+    "netlify-webhook",
+    "discord",
+    "discord-webhook"
   ],
-  "author": "Kelly Mears <hello@kellymears.me>",
+  "author": "Ryan Faiz <hello@ryanfaiz.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kellymears/netlify-plugin-discord.git"
+    "url": "https://github.com/ryanfaiz/netlify-discord-webhook.git"
   },
   "bugs": {
-    "url": "https://github.com/kellymears/netlify-plugin-discord/issues",
-    "email": "helo@kellymears.me"
+    "url": "https://github.com/ryanfaiz/netlify-discord-webhook/issues",
+    "email": "hello@ryanfaiz.com"
   },
   "pre-commit": [
     "package-check"
