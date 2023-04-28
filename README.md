@@ -1,4 +1,4 @@
-# netlify-plugin-discord
+# netlify-discord-webhook
 
 ![npm](https://img.shields.io/npm/v/netlify-plugin-discord?label=npm&style=flat-square)
 
@@ -29,7 +29,7 @@ Add the webhook. Copy the Webhook URL for use configuring this build plugin.
 ## Installation
 
 ```sh
-yarn add netlify-plugin-discord
+yarn add netlify-discord-webhook
 ```
 
 Add the plugin to [your netlify config](https://docs.netlify.com/configure-builds/file-based-configuration/).
@@ -38,7 +38,7 @@ Add the plugin to [your netlify config](https://docs.netlify.com/configure-build
 # netlify.toml
 
 [[plugins]]
-  package = "netlify-plugin-discord"
+  package = "netlify-discord-webhook"
 ```
 
 ## Configuration
